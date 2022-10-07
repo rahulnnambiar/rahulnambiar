@@ -5,17 +5,8 @@ import AppStack from './src/components/stack/AppStack';
 export default function App() {
   return (
     <NativeBaseProvider>
-      <AppStack/>
+      <AppStack />
       <StatusBar style="light-content" />
     </NativeBaseProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
